@@ -23,6 +23,8 @@
 // force the compiler to show a warning to confirm that this file is included
 #warning **** user_config_override.h: Using Settings from this File ****
 
+#define USE_VINDRIKTNING
+
 /*****************************************************************************************************\
  * USAGE:
  *   To modify the stock configuration without changing the my_user_config.h file:
@@ -87,9 +89,6 @@ Examples :
 #endif
 
 */
-
-
-
 
 
 #endif  // _USER_CONFIG_OVERRIDE_H_

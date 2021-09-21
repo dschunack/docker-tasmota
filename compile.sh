@@ -3,7 +3,7 @@
 # Copy this bash script to a directory below /Tasmota and run from there
 
 CHECK_MARK="\033[0;32m\xE2\x9C\x94\033[0m"
-rundir=$(dirname $(readlink -f $0))
+rundir=$(dirname $(greadlink -f $0))
 
 # use default docker-tasmota image from hub.docker.com
 DOCKER_IMAGE=blakadder/docker-tasmota
