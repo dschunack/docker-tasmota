@@ -10,7 +10,7 @@ Running the script for the first time will pull the latest blakadder/docker-tasm
 
 Running the script with one or more build names (as listed in platformio_tasmota_ev.ini) as parameters will compile only those builds regardless of platformio.ini or platformio_override.ini
 
-`./compile.sh tasmota-sensors tasmota-PT`    
+`./compile.sh tasmota-sensors tasmota-minimal`    
 compiles both the tasmota-sensors.bin and the portuguese language version of Tasmota
 
 If you have a `user_config_override.h` or `platformio_override.ini` file with your custom settings you can put them in the script folder and they will be used on the next script run. 
