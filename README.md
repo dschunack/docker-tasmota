@@ -36,8 +36,9 @@ To check compiling logs use `cat docker-tasmota.log`
     git clone https://github.com/arendst/Tasmota.git
     ```
 
-4. From the same directory run to compile the desired build   
-`docker run -ti --rm -v $(pwd)/Tasmota:/tasmota -u $UID:$GID docker-tasmota -e tasmota-PT`
+4. From the same directory run to compile the desired build, full, sensors or ....
+ 
+`docker run -ti --rm -v $(pwd)/Tasmota:/tasmota -u $UID:$GID docker-tasmota -e tasmota-sensors`
 
 > `-e <buildname>` where <buildname> can be any of the [builds listed in platformio.ini](https://github.com/arendst/Tasmota/blob/063611314777d4dd9dc8c25905f19f8b25f510aa/platformio.ini#L18). If you don't define a build then ***every*** build will get compiled.
 
